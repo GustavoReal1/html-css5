@@ -1,0 +1,88 @@
+@charset "UTF-8";
+
+
+*{  
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 0;
+}
+header{
+    background-image: linear-gradient(to top, green, rgba(44, 143, 44, 0.74));
+    height: 200px;
+    text-align: center;
+    color: white;
+
+}
+
+header>h1{
+    margin-bottom: 50px;
+    font-size: 3em;
+}
+
+header>p{
+    font-size: 1.5em;
+}
+
+nav{
+    text-align: left;
+    margin-top: 40px;
+}
+
+nav>a{
+    color: white;
+    text-decoration: none;
+    margin: 15px;
+}
+
+main{
+    text-align: center;
+    background-color: rgb(130, 155, 130);
+    
+}
+
+.historia{
+    background-color: white;
+    margin: auto;
+    width: 85%;
+}
+
+.historia>h1{
+    text-align: left;
+    text-indent: 20px;
+    margin-bottom: 20px;
+    color: green;
+
+}
+
+.historia>p{
+    font-size: 16px;
+    
+}
+
+.historia>h2{
+    color: white;
+    text-align:left;
+    text-indent: 20px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+
+    background-image: linear-gradient(to left, rgba(93, 167, 58, 0.658), rgb(4, 49, 4));
+}
+
+.historia>img{
+    margin-bottom: 20px ;
+}
+
+.novo{
+    background-color: white;
+    width: 85%;
+    margin: auto;
+}
+
+.sabermais{
+    background-color: white;
+    margin: auto;
+    width: 85%;
+}
+
+
+
